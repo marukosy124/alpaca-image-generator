@@ -5,7 +5,7 @@
 <div id="alpaca">
 	{#each selectedItems as sItem}
 		<img
-			src={`src/lib/images/alpaca/${sItem.directory}/${sItem.item}.png`}
+			src={`/images/alpaca/${sItem.directory}/${sItem.item}.png`}
 			alt={sItem.item}
 			width="400"
 			class={`alpaca-${sItem.directory}`}

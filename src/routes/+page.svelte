@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { alpacaData } from '$lib/alpacaData';
 	import Alpaca from '../components/Alpaca.svelte';
 	import RadioButton from '../components/RadioButton.svelte';
 	import { EType } from '../constants';
 	import { toPng } from 'html-to-image';
+	import { alpacaData } from '../constants';
 
 	let directories = alpacaData;
 	let error = '';
